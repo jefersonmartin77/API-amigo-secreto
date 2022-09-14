@@ -1,0 +1,24 @@
+# curl -X POST http://localhost:8000/register -d username=walderlan -d password=12345
+#FAZ A CRIAÇÃO DO USUARIO
+POST http://localhost:8000/register
+Content-Type: application/x-www-form-urlencoded
+
+username=walderlan&password=12345
+
+###
+
+
+###
+
+# curl -X POST -H "Content-Type: application/json" http://localhost:8000/login_check -d '{"username":"walderlan","password":"12345"}'
+#FAZ A ATUENTEICACAO
+POST http://localhost:8000/authentication_token
+Content-Type: application/json
+
+{
+  "username": "walderlan",
+  "password": "12345"
+}
+
+###
+

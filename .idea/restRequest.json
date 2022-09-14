@@ -1,0 +1,6 @@
+{
+  "uri": "http://localhost:8000/register",
+  "method": "POST",
+  "body": "{\n     \"username\":\"admin\",\n     \"password\":\"123\"\n}",
+  "headers": {}
+}
